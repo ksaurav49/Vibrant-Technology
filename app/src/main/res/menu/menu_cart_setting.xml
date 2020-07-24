@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_shopping_cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:onClick="openCart"
+        app:showAsAction="always" />
+
+    <item
+        android:orderInCategory="100"
+        android:title="Logout"
+        android:onClick="logt"
+        app:showAsAction="never" />
+</menu>
